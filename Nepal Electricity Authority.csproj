@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{403C1EBA-DA25-477C-A624-D25FC36759B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nepal_Electricity_Authority</RootNamespace>
+    <AssemblyName>Nepal Electricity Authority</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\SK\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/Nepal Electricity Authority/</UpdateUrl>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C0F2AF50695966090E9D43D1D98F6D33C07D74CD</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Nepal Electricity Authority_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Panel.Designer.cs">
+      <DependentUpon>Admin Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill Pay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill Pay.Designer.cs">
+      <DependentUpon>Bill Pay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Billing Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing Search.Designer.cs">
+      <DependentUpon>Billing Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify User.Designer.cs">
+      <DependentUpon>Modify User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NEADataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NEADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NEADataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NEADataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NEADataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NEADataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NEADataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NEADataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NEADataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NEADataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Nepal_Electricity_Authority_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nepal_Electricity_Authority_User.Designer.cs">
+      <DependentUpon>Nepal_Electricity_Authority_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print Bill.Designer.cs">
+      <DependentUpon>Print Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register Employer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register Employer.Designer.cs">
+      <DependentUpon>Register Employer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resister Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resister Customer.Designer.cs">
+      <DependentUpon>Resister Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary Pay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary Pay.Designer.cs">
+      <DependentUpon>Salary Pay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search And Modify Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search And Modify Customer.Designer.cs">
+      <DependentUpon>Search And Modify Customer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin Panel.resx">
+      <DependentUpon>Admin Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill Pay.resx">
+      <DependentUpon>Bill Pay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing Search.resx">
+      <DependentUpon>Billing Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify User.resx">
+      <DependentUpon>Modify User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nepal_Electricity_Authority_User.resx">
+      <DependentUpon>Nepal_Electricity_Authority_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print Bill.resx">
+      <DependentUpon>Print Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register Employer.resx">
+      <DependentUpon>Register Employer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resister Customer.resx">
+      <DependentUpon>Resister Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary Pay.resx">
+      <DependentUpon>Salary Pay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search And Modify Customer.resx">
+      <DependentUpon>Search And Modify Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="NEADataSet.xsc">
+      <DependentUpon>NEADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NEADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NEADataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NEADataSet.xss">
+      <DependentUpon>NEADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NEADataSet1.xsc">
+      <DependentUpon>NEADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="NEADataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NEADataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NEADataSet1.xss">
+      <DependentUpon>NEADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="NEADataSet2.xsc">
+      <DependentUpon>NEADataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="NEADataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NEADataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NEADataSet2.xss">
+      <DependentUpon>NEADataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="NEADataSet3.xsc">
+      <DependentUpon>NEADataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="NEADataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NEADataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NEADataSet3.xss">
+      <DependentUpon>NEADataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="NEADataSet4.xsc">
+      <DependentUpon>NEADataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="NEADataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NEADataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NEADataSet4.xss">
+      <DependentUpon>NEADataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Nepal Electricity Authority_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner_blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RepFlat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner_blue11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,33 @@
+E:\Nepal Electricity Authority\Nepal Electricity Authority\bin\Debug\Nepal Electricity Authority.exe.config
+E:\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.csprojResolveAssemblyReference.cache
+E:\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Login.resources
+E:\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Properties.Resources.resources
+E:\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.csproj.GenerateResource.Cache
+E:\Nepal Electricity Authority\Nepal Electricity Authority\bin\Debug\Nepal Electricity Authority.exe
+E:\Nepal Electricity Authority\Nepal Electricity Authority\bin\Debug\Nepal Electricity Authority.pdb
+E:\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.exe
+E:\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.pdb
+E:\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Modify_User.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\bin\Debug\Nepal Electricity Authority.exe.config
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.exe
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.pdb
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\bin\Debug\Nepal Electricity Authority.exe
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\bin\Debug\Nepal Electricity Authority.pdb
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Login.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Modify_User.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Properties.Resources.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.csproj.GenerateResource.Cache
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Admin_Panel.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Nepal_Electricity_Authority_User.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Resister_Customer.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Search_And_Modify_Customer.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Bill_Pay.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Print_Bill.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Register_Employer.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Salary_Pay.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal_Electricity_Authority.Billing_Search.resources
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.csprojResolveAssemblyReference.cache
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\bin\Debug\Nepal Electricity Authority.exe.manifest
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\bin\Debug\Nepal Electricity Authority.application
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.exe.manifest
+D:\New folder\Nepal Electricity Authority\Nepal Electricity Authority\obj\Debug\Nepal Electricity Authority.application
